@@ -1,4 +1,4 @@
-# Holo Apollo API
+# Holo Apollo CRM
 
 This is the project for CRM backend of https://www.holo-apollo.art.
 

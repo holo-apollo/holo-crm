@@ -17,7 +17,7 @@ urlpatterns = [
 
     # DRF
     path('api-auth/', include(drf_urls)),
-    path('api/docs/', include_docs_urls(title='Holo Apollo API', public=False)),
+    path('api/docs/', include_docs_urls(title='Holo Apollo CRM API', public=False)),
     path('api/', include(api_patterns)),
 
     # Apps
