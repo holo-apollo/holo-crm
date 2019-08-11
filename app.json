@@ -1,0 +1,59 @@
+{
+  "name": "holo-crm",
+  "description": "CRM backend for Holo Apollo project",
+  "scripts": {
+    "postdeploy": "./scripts/postdeploy.sh"
+  },
+  "env": {
+    "SECRET_KEY": {
+      "generator": "secret"
+    },
+    "DJANGO_SETTINGS_MODULE": "config.settings.review",
+    "DISABLE_COLLECTSTATIC": 1,
+    "USE_AWS_STATIC": "True",
+    "STAGING_DATABASE_URL": {
+      "required": true
+    },
+    "TEST_DATABASE_URL": {
+      "required": true
+    },
+    "AWS_ACCESS_KEY_ID": {
+      "required": true
+    },
+    "AWS_SECRET_ACCESS_KEY": {
+      "required": true
+    }
+  },
+  "formation": {
+    "web": {
+      "quantity": 1
+    },
+    "worker": {
+      "quantity": 1
+    }
+  },
+  "addons": [
+    "heroku-postgresql",
+    "heroku-redis",
+    "bonsai",
+    "mailtrap"
+  ],
+  "buildpacks": [
+    {
+      "url": "heroku/python"
+    }
+  ],
+  "environments": {
+    "test": {
+      "scripts": {
+        "test": "./scripts/test.sh"
+      },
+      "env": {
+        "DJANGO_SETTINGS_MODULE": "config.settings.test",
+        "STAGING_DATABASE_URL": {
+          "required": false
+        }
+      }
+    }
+  }
+}

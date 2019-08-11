@@ -1,0 +1,9 @@
+{% load i18n %}
+
+{% trans 'Great!' %}
+{% trans 'Thank You for subscription at ' %}Holo-Apollo.art.
+
+{% trans 'My name is Ira.' %}
+{% trans 'I am very glad to stay in touch with you and inform you about our updates.' %}
+
+{% trans 'We promise to never spam you or share your personal information!' %}

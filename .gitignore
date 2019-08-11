@@ -1,0 +1,12 @@
+*.pyc
+staticfiles
+.env
+.idea
+.cache
+*.sqlite3
+*.log
+*.rdb
+.pytest_cache
+.coverage
+htmlcov
+.DS_Store

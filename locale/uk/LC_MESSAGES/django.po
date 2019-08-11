@@ -1,0 +1,432 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-08-11 22:43+0300\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2);\n"
+
+#: apps/common/admin.py:10
+msgid "Holo-Apollo site admin"
+msgstr "Адміністрування сайту Holo-Apollo"
+
+#: apps/common/admin.py:11
+msgid "Holo-Apollo administration"
+msgstr "Адміністрування Holo-Apollo"
+
+#: apps/common/apps.py:7
+msgid "Common"
+msgstr "Загальне"
+
+#: apps/common/fields.py:8
+msgid "Phone number"
+msgstr "Номер телефону"
+
+#: apps/common/validators.py:8
+msgid "Enter a valid phone number"
+msgstr "Введіть дійсний номер телефону"
+
+#: apps/users/admin.py:14
+msgid "Personal info"
+msgstr ""
+
+#: apps/users/admin.py:18
+msgid "Permissions"
+msgstr ""
+
+#: apps/users/admin.py:19
+msgid "Important dates"
+msgstr ""
+
+#: apps/users/apps.py:7 apps/users/models.py:76
+msgid "Users"
+msgstr "Користувачі"
+
+#: apps/users/managers.py:12
+msgid "The given email must be set"
+msgstr "Дана адреса пошти має бути встановлена"
+
+#: apps/users/models.py:15
+msgid "Username"
+msgstr "Ім'я користувача"
+
+#: apps/users/models.py:19
+msgid "That username is already taken."
+msgstr "Це ім'я вже зайнято."
+
+#: apps/users/models.py:23
+msgid "First name"
+msgstr "Ім'я"
+
+#: apps/users/models.py:29
+msgid "Last name"
+msgstr "Прізвище"
+
+#: apps/users/models.py:36
+msgid "Email"
+msgstr "Email"
+
+#: apps/users/models.py:40
+msgid "That email address is already taken."
+msgstr "Ця адреса пошти вже зареєстрована."
+
+#: apps/users/models.py:44
+msgid "Phone"
+msgstr "Телефон"
+
+#: apps/users/models.py:49
+msgid "That phone number is already taken."
+msgstr "Цей номер телефону вже зареєстрований."
+
+#: apps/users/models.py:54
+msgid "Staff status"
+msgstr "Статус персоналу"
+
+#: apps/users/models.py:58
+msgid "Active status"
+msgstr "Активний статус"
+
+#: apps/users/models.py:62
+msgid "Date joined"
+msgstr "Дата реєстрації"
+
+#: apps/users/models.py:66
+msgid "Last updated"
+msgstr "Останнє оновлення"
+
+#: apps/users/models.py:69
+msgid "Avatar"
+msgstr "Аватар"
+
+#: apps/users/models.py:75
+msgid "User"
+msgstr "Користувач"
+
+#: apps/users/models.py:86
+msgid "Full name"
+msgstr "Повне ім'я"
+
+#: config/settings/base.py:152
+msgid "English"
+msgstr "Англійська"
+
+#: config/settings/base.py:153
+msgid "Russian"
+msgstr "Російська"
+
+#: config/settings/base.py:154
+msgid "Ukrainian"
+msgstr "Українська"
+
+#: templates/emails/subscription.html:7
+msgid "Holo-Apollo subscription"
+msgstr "Підписка Holo-Apollo"
+
+#: templates/emails/subscription.html:54 templates/emails/subscription.txt:3
+msgid "Great!"
+msgstr "Чудово!"
+
+#: templates/emails/subscription.html:59 templates/emails/subscription.txt:4
+msgid "Thank You for subscription at "
+msgstr "Дякуємо за підписку на "
+
+#: templates/emails/subscription.html:70 templates/emails/subscription.txt:6
+msgid "My name is Ira."
+msgstr "Мене звати Іра."
+
+#: templates/emails/subscription.html:75 templates/emails/subscription.txt:7
+msgid ""
+"I am very glad to stay in touch with you and inform you about our updates."
+msgstr ""
+"Мені дуже приємно бути на зв'язку з Вами та інформувати про наші оновлення."
+
+#: templates/emails/subscription.html:85 templates/emails/subscription.txt:9
+msgid "We promise to never spam you or share your personal information!"
+msgstr "Обіцяємо ніколи не спамити та не поширювати Вашу особисту інформацію!"
+
+#: templates/emails/subscription.html:95
+msgid "Unsubscribe"
+msgstr "Відписатися"
+
+#: templates/emails/subscription_subject.txt:3
+msgid "Holo-Apollo Subscription"
+msgstr "Підписка Holo-Apollo"
+
+#~ msgid "Color"
+#~ msgstr "Колір"
+
+#~ msgid "Colors"
+#~ msgstr "Кольори"
+
+#~ msgid "Definition"
+#~ msgstr "Визначення"
+
+#~ msgid "Size"
+#~ msgstr "Розмір"
+
+#~ msgid "Sizes"
+#~ msgstr "Розміри"
+
+#~ msgid "subcategory"
+#~ msgstr "підкатегорія"
+
+#~ msgid "subcategories"
+#~ msgstr "підкатегорії"
+
+#~ msgid "Goods"
+#~ msgstr "Товари"
+
+#~ msgid "goods category"
+#~ msgstr "категорія товарів"
+
+#~ msgid "goods categories"
+#~ msgstr "категорії товарів"
+
+#~ msgctxt "not person"
+#~ msgid "Name"
+#~ msgstr "Назва"
+
+#~ msgid "Parent category"
+#~ msgstr "Батьківська категорія"
+
+#~ msgid "Applicable specifications"
+#~ msgstr "Застосовні характеристики"
+
+#~ msgid "Categories names chain"
+#~ msgstr "Ланцюжок назв категорій"
+
+#~ msgid "Goods names"
+#~ msgstr "Назви товарів"
+
+#~ msgctxt "product"
+#~ msgid "Good"
+#~ msgstr "Товар"
+
+#~ msgid "Description"
+#~ msgstr "Опис"
+
+#~ msgid "Category"
+#~ msgstr "Категорія"
+
+#~ msgid "Seller"
+#~ msgstr "Продавець"
+
+#~ msgid "Price"
+#~ msgstr "Ціна"
+
+#~ msgid "Discount"
+#~ msgstr "Знижка"
+
+#~ msgid "Categories names"
+#~ msgstr "Назви категорій"
+
+#~ msgid "Good specifications"
+#~ msgstr "Характеристики товару"
+
+#~ msgid "%(good)s specifications"
+#~ msgstr "Характеристики %(good)s"
+
+#~ msgid "Orders"
+#~ msgstr "Замовлення"
+
+#~ msgid "New"
+#~ msgstr "Новий"
+
+#~ msgid "Accepted"
+#~ msgstr "Принятий"
+
+#~ msgid "Sent"
+#~ msgstr "Відправлений"
+
+#~ msgid "Completed"
+#~ msgstr "Виконаний"
+
+#~ msgid "Pickup"
+#~ msgstr "Самовивіз"
+
+#~ msgid "New post branch"
+#~ msgstr "Відділення Нової Пошти"
+
+#~ msgid "New post express"
+#~ msgstr "Кур'єрська доставка Нової пошти"
+
+#~ msgid "Status"
+#~ msgstr "Статус"
+
+#~ msgid "Delivery city"
+#~ msgstr "Місто доставки"
+
+#~ msgid "Delivery method"
+#~ msgstr "Спосіб доставки"
+
+#~ msgid "Delivery info"
+#~ msgstr "Подробиці доставки"
+
+#~ msgid "Rating"
+#~ msgstr "Оцінка"
+
+#~ msgid "Buyer"
+#~ msgstr "Покупець"
+
+#~ msgid "Order %(order_id)d. Seller: %(seller)s; buyer: %(buyer)s"
+#~ msgstr "Замовлення %(order_id)d. Продавець: %(seller)s; покупець: %(buyer)s"
+
+#~ msgid "Order"
+#~ msgstr "Замовлення"
+
+#~ msgid "Good order"
+#~ msgstr "Замовлення товару"
+
+#~ msgid "Good orders"
+#~ msgstr "Замовлення товарів"
+
+#~ msgid "Quantity"
+#~ msgstr "Кількість"
+
+#~ msgid "Buyer: %(buyer)s. Good: %(good)s"
+#~ msgstr "Продавець: %(buyer)s. Товар: %(good)s"
+
+#~ msgid "Total cost"
+#~ msgstr "Загальна вартість"
+
+#~ msgid "Order no"
+#~ msgstr "№ замовлення"
+
+#~ msgid "An application with this email already exists"
+#~ msgstr "Заявка з цією адресою пошти вже існує"
+
+#~ msgid "An application with this Instagram name already exists"
+#~ msgstr "Заявка з цим іменем Instagram вже існує"
+
+#~ msgid "You must allow your data usage to create application"
+#~ msgstr "Ви повинні дозволити використовувати ваші дані щоб залишити заявку"
+
+#~ msgid "Stores"
+#~ msgstr "Магазини"
+
+#~ msgid "Store name"
+#~ msgstr "Ім'я магазину"
+
+#~ msgid "Store"
+#~ msgstr "Магазин"
+
+#~ msgid "Clothes"
+#~ msgstr "Одяг"
+
+#~ msgid "Jewelry"
+#~ msgstr "Прикраси"
+
+#~ msgid "Accessories"
+#~ msgstr "Аксесуари"
+
+#~ msgid "Home decor"
+#~ msgstr "Домашній декор"
+
+#~ msgid "Shoes"
+#~ msgstr "Взуття"
+
+#~ msgid "Art"
+#~ msgstr "Мистецтво"
+
+#~ msgid "Other"
+#~ msgstr "Інше"
+
+#~ msgid "Name"
+#~ msgstr "Ім'я"
+
+#~ msgid "What is your name?"
+#~ msgstr "Як Вас звати?"
+
+#~ msgid "Email to reach you out"
+#~ msgstr "Email для зв'язку"
+
+#~ msgid "That email address is already used."
+#~ msgstr "Ця адреса пошти вже використана."
+
+#~ msgid "Instagram name"
+#~ msgstr "Ім'я в Instagram"
+
+#~ msgid "@Name in Instagram"
+#~ msgstr "@Ім'я в Instagram"
+
+#~ msgid "That Instagram name is already used."
+#~ msgstr "Це Instagram ім'я вже зайнято."
+
+#~ msgid "Selling goods"
+#~ msgstr "Товари на продаж"
+
+#~ msgid "What's being sold in your store?"
+#~ msgstr "Що продається у вашому магазині?"
+
+#~ msgid "Goods description"
+#~ msgstr "Опис товарів"
+
+#~ msgid "Describe your goods (materials, technology, prices...)"
+#~ msgstr "Опишіть ваші вироби (матеріали, технологія, ціни...)"
+
+#~ msgid "Philosophy"
+#~ msgstr "Філософія"
+
+#~ msgid "Philosophy behind your store"
+#~ msgstr "Філософський сенс вашого магазину"
+
+#~ msgid "Data usage agreement"
+#~ msgstr "Згода на використання даних"
+
+#~ msgid "I allow usage of data I provided"
+#~ msgstr "Я погоджуюсь на використання залишених мною даних"
+
+#~ msgid "Publication date"
+#~ msgstr "Дата публікації"
+
+#~ msgid "Store application"
+#~ msgstr "Заявка магазину"
+
+#~ msgid "Store applications"
+#~ msgstr "Заявки магазинів"
+
+#~ msgid "Published"
+#~ msgstr "Опубліковано"
+
+#~ msgid "Application"
+#~ msgstr "Заявка"
+
+#~ msgid "Image URL"
+#~ msgstr "URL зображення"
+
+#~ msgid "Store application image"
+#~ msgstr "Зображення заявки магазину"
+
+#~ msgid "Store application images"
+#~ msgstr "Зображення заявок магазинів"
+
+#~ msgid "Sorry, subscription not found."
+#~ msgstr "Вибачте, такої підписки немає."
+
+#~ msgid "Email confirmed"
+#~ msgstr "Email підтверджено"
+
+#~ msgid "That email address is already subscribed."
+#~ msgstr "Ця адреса пошти вже підписана."
+
+#~ msgid "Subscribed"
+#~ msgstr "Підписаний"
+
+#~ msgid "Subscription"
+#~ msgstr "Підписка"
+
+#~ msgid "Subscriptions"
+#~ msgstr "Підписки"

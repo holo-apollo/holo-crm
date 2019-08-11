@@ -1,0 +1,35 @@
+version: '3'
+
+services:
+  web:
+    build: .
+    command: ./scripts/run.sh
+    volumes:
+      - .:/code
+    ports:
+      - "8000:8000"
+    depends_on:
+      - db
+    environment:
+      - DJANGO_SETTINGS_MODULE=config.settings
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/holoapollo
+      - REDIS_URL=redis://redis:6379
+      - BONSAI_URL=elasticsearch:9200
+      - PY_AUTORELOAD=1
+
+  worker:
+    build: .
+    command: /bin/bash -c "pip install -r requirements.txt && celery worker --app=config.celery.app"
+    volumes:
+      - .:/code
+    depends_on:
+      - redis
+    links:
+      - redis
+      - db
+      - web
+    environment:
+      - DJANGO_SETTINGS_MODULE=config.settings
+      - DATABASE_URL=postgres://postgres:postgres@db:5432/holoapollo
+      - REDIS_URL=redis://redis:6379
+      - BONSAI_URL=elasticsearch:9200
