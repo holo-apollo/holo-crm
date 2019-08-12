@@ -4,11 +4,17 @@ from django.urls import include, path
 
 from rest_framework import urls as drf_urls
 from rest_framework.documentation import include_docs_urls
+from rest_framework.routers import DefaultRouter
 
 from apps.common.api.v1.views import SignS3
+from apps.customers.api.v1.urls import router as customers_router_v1
+
+router_v1 = DefaultRouter()
+router_v1.registry.extend(customers_router_v1.registry)
 
 api_patterns = [
     path('v1/sign-s3', SignS3.as_view(), name='sign_s3'),
+    path('v1/', include((router_v1.urls, 'api_v1'), namespace='v1')),
 ]
 
 urlpatterns = [

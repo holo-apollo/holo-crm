@@ -3,7 +3,7 @@ from django.test import TestCase
 from .factories import UserFactory
 
 
-class TestUser(TestCase):
+class UserTestCase(TestCase):
     def setUp(self):
         self.user = UserFactory(first_name='Jane', last_name='Doe')
 
@@ -13,5 +13,5 @@ class TestUser(TestCase):
     def test_full_name(self):
         self.assertEqual(self.user.get_full_name(), 'Jane Doe')
 
-    def test_repr(self):
+    def test_str(self):
         self.assertEqual(str(self.user), f'Jane Doe {self.user.email}')

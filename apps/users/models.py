@@ -42,8 +42,8 @@ class User(AbstractBaseUser, PermissionsMixin):
     )
     phone = PhoneField(
         verbose_name=_('Phone'),
-        null=True,
         blank=True,
+        default='',
         unique=True,
         error_messages={
             'unique': _('That phone number is already taken.')

@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: PACKAGE VERSION\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-08-11 22:43+0300\n"
+"POT-Creation-Date: 2019-08-12 21:19+0300\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,6 +39,34 @@ msgstr "Номер телефона"
 #: apps/common/validators.py:8
 msgid "Enter a valid phone number"
 msgstr "Введите действительный номер телефона"
+
+#: apps/customers/apps.py:7 apps/customers/models.py:32
+msgid "Customers"
+msgstr "Заказчики"
+
+#: apps/customers/models.py:11
+msgid "Name"
+msgstr "Имя"
+
+#: apps/customers/models.py:13 apps/users/models.py:36
+msgid "Email"
+msgstr "Email"
+
+#: apps/customers/models.py:17 apps/users/models.py:40
+msgid "That email address is already taken."
+msgstr "Этот адрес уже занят."
+
+#: apps/customers/models.py:21 apps/users/models.py:44
+msgid "Phone"
+msgstr "Телефон"
+
+#: apps/customers/models.py:26 apps/users/models.py:49
+msgid "That phone number is already taken."
+msgstr "Этот телефон уже занят."
+
+#: apps/customers/models.py:31
+msgid "Customer"
+msgstr "Заказчик"
 
 #: apps/users/admin.py:14
 msgid "Personal info"
@@ -76,22 +104,6 @@ msgstr "Имя"
 msgid "Last name"
 msgstr "Фамилия"
 
-#: apps/users/models.py:36
-msgid "Email"
-msgstr "Email"
-
-#: apps/users/models.py:40
-msgid "That email address is already taken."
-msgstr "Этот адрес уже занят."
-
-#: apps/users/models.py:44
-msgid "Phone"
-msgstr "Телефон"
-
-#: apps/users/models.py:49
-msgid "That phone number is already taken."
-msgstr "Этот телефон уже занят."
-
 #: apps/users/models.py:54
 msgid "Staff status"
 msgstr "Статус персонала"
@@ -120,15 +132,15 @@ msgstr "Пользователь"
 msgid "Full name"
 msgstr "Полное имя"
 
-#: config/settings/base.py:152
+#: config/settings/base.py:153
 msgid "English"
 msgstr "Английский"
 
-#: config/settings/base.py:153
+#: config/settings/base.py:154
 msgid "Russian"
 msgstr "Русский"
 
-#: config/settings/base.py:154
+#: config/settings/base.py:155
 msgid "Ukrainian"
 msgstr "Украинский"
 
@@ -345,9 +357,6 @@ msgstr "Подписка на Holo-Apollo"
 
 #~ msgid "Other"
 #~ msgstr "Другое"
-
-#~ msgid "Name"
-#~ msgstr "Имя"
 
 #~ msgid "What is your name?"
 #~ msgstr "Как Вас зовут?"

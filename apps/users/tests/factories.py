@@ -11,4 +11,4 @@ class UserFactory(factory.django.DjangoModelFactory):
     first_name = factory.Faker('first_name')
     last_name = factory.Faker('last_name')
     email = factory.Faker('email')
-    phone = factory.Sequence(lambda n: f'+380099{n}')
+    phone = factory.Sequence(lambda n: f'+38099{n:07d}')
